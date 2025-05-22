@@ -4,7 +4,7 @@
 
 This lab walks you through the steps to create a end-to-end robot. When creating a robot, you define its trigger and the actions that the robot performs.
 
-Estimated Lab Time: 45 minutes
+Estimated Lab Time: 50 minutes
 
 ### Objectives
 
