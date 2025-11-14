@@ -40,6 +40,9 @@ Before beginning the workshop, please verify that you have access to the followi
 # Learn More
 
 * [Get Started with Oracle Integration 3](https://docs.oracle.com/en/cloud/paas/application-integration/index.html)
+* [Using the Oracle NetSuite Adapter with Oracle Integration 3](https://docs.oracle.com/en/cloud/paas/application-integration/netsuite-adapter)
+* [Using the Oracle CX Sales and B2B Service Adapter with Oracle Integration 3
+](https://docs.oracle.com/en/cloud/paas/application-integration/sales-adapter)
 
 
 # Acknowledgements
