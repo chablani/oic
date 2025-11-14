@@ -10,16 +10,17 @@ Estimated Workshop Time: 2 hours
 
 ### Objectives
 
-In this workshop, you will learn how to:
+Workshop goals:
 
-* Create a Project using natural language with AI Assistant
-* Manage secure and reliable connectivity with NetSuite, Oracle CX Sales and Oracle Autonomous Database
-* Review and enhance integrations with Oracle CX Sales and NetSuite
-* Capture real-time events from Oracle CX Sales, such as Opportunity closed, into Oracle Integration for downstream processing
-* Create a Sales Order in NetSuite, immediately after an Opportunity is closed in Oracle CX Sales
-* Practice mapping and transforming data attributes between the different systems to ensure compatibility and accurate data processing
-* Run the integration by performing an Opportunity Close in Oracle CX Sales to initiate the creation of a Sales Order in NetSuite
-* Monitor integration runs and troubleshoot common issues
+* Gain a fundamental understanding of Oracle Integration concepts, such as Projects and Adapters.
+* Create a Project using natural language with the built-in AI Assistant.
+* Manage secure and reliable connectivity with NetSuite, Oracle CX Sales and Oracle Autonomous Database.
+* Build and enhance integrations with Oracle CX Sales and NetSuite.
+* Capture real-time events from Oracle CX Sales, such as Opportunity closed, into Oracle Integration for downstream processing.
+* Create a Sales Order in NetSuite, immediately after an Opportunity is closed in Oracle CX Sales.
+* Practice mapping and transforming data attributes between the different systems to ensure compatibility and accurate data processing.
+* Run the integration by performing an Opportunity Close in Oracle CX Sales to initiate the creation of a Sales Order in NetSuite.
+* Monitor integration runs and troubleshoot common issues.
 
 
 
