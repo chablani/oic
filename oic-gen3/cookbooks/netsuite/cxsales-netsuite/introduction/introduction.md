@@ -4,7 +4,7 @@
 
 Welcome to this hands-on workshop on integrating NetSuite with a CRM cloud application using Oracle Integration. In this training, you will gain real-world experience connecting NetSuite with Oracle CX Sales, Oracle’s cloud-based CRM solution. Through guided exercises, you’ll learn how to configure integrations, synchronize data, and automate workflows to streamline business processes across sales and finance operations.
 
-By the end of this workshop, you will have the skills to leverage Oracle Integration for seamless communication and improved productivity between NetSuite and Oracle CX Sales, empowering your organization with unified, real-time business insights.
+By the end of this workshop, you will have the skills to use Oracle Integration for seamless communication and improved productivity between NetSuite and Oracle CX Sales, empowering your organization with unified, real-time business insights.
 
 Estimated Workshop Time: 2 hours
 
@@ -33,6 +33,7 @@ Workshop goals:
 Before beginning the workshop, please verify that you have access to the following resources:
 
 * Oracle Integration
+* Oracle NetSuite
 * Oracle CX Sales
 * Oracle Autonomous Database
 * Chrome browser
