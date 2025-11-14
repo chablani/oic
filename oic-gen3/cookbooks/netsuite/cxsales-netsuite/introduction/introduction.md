@@ -47,5 +47,5 @@ Before beginning the workshop, please verify that you have access to the followi
 
 # Acknowledgements
 
-* Author - Ravi Chablani, Product Management - Oracle Integration
-* Last Updated - Ravi Chablani, November 2025
+* **Author:** Ravi Chablani, Product Management - Oracle Integration
+* **Last Updated:** Ravi Chablani, November 2025
