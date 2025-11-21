@@ -4,7 +4,7 @@
     "tutorials": [
         {
             "title": "Introduction",
-            "description": "The Introduction is always first. The title and contents menu title match for the Introduction.",
+            "description": "Introduction of workshop Synchronize Oracle CX Sales Opportunities and NetSuite Sales Orders",
             "filename": "../../introduction/introduction.md"
         },
         {
