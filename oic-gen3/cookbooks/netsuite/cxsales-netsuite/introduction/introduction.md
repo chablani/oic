@@ -1,6 +1,6 @@
 # Introduction
 
-Welcome to this hands-on workshop on integrating NetSuite with a CRM cloud application using Oracle Integration. In this training, you will gain real-world experience connecting NetSuite with Oracle CX Sales, Oracle’s cloud-based CRM solution. Through guided exercises, you’ll learn how to configure integrations, synchronize data, and automate workflows to streamline business processes across sales and finance operations.
+Welcome to the hands-on workshop on integrating NetSuite with a CRM cloud application using Oracle Integration. In this training, you will gain real-world experience connecting NetSuite with Oracle CX Sales, Oracle’s cloud-based CRM solution. Through guided exercises, you’ll learn how to configure integrations, synchronize data, and automate workflows to streamline business processes across sales and finance operations.
 
 By the end of this workshop, you will have the skills to use Oracle Integration for seamless communication and improved productivity between NetSuite and Oracle CX Sales, empowering your organization with unified, real-time business insights.
 
@@ -17,16 +17,15 @@ We will break down the use case in the following sequences:
 
 ## About this Workshop
 
-You will build an integration workflow that synchronizes **CX Sales Opportunities and NetSuite Sales Orders**. Instead of building the workflow from scratch, we will use an existing Recipe as baseline, and add customizations, for this workshop
+You will build an integration workflow that synchronizes **CX Sales Opportunities and NetSuite Sales Orders**. Instead of building the workflow from scratch, we will use an existing Recipe as baseline, and add customizations, in this workshop
 
 ### Workshop Flow
 
-1. Use the AI Assistant to find the recipe **Synchronize Opportunities in Oracle CX Sales and B2B Service with Oracle NetSuite Orders**
-2. Install the recipe.
+1. Use the AI Assistant to find the recipe **Synchronize Opportunities in Oracle CX Sales and B2B Service with Oracle NetSuite Orders**.
+2. Install the recipe as a project.
 3. Configure the connection for the REST, NetSuite and CX Sales adapters.
-4. Activate and run the recipe.
-
-
+4. Add an action to capture details of the NetSuite Sales Order (e.g. persist as file, insert as Database record, send as email notification, etc).
+5. Activate and run the recipe.
 
 Estimated Workshop Time: 2 hours
 
@@ -36,19 +35,14 @@ Workshop goals:
 
 * Gain a fundamental understanding of Oracle Integration concepts, such as Projects and Adapters.
 * Create a Project using natural language with the built-in AI Assistant.
-* Manage secure and reliable connectivity with NetSuite, Oracle CX Sales and Oracle Autonomous Database.
+* Manage secure and reliable connectivity with Oracle CX Sales and NetSuite.
 * Build and enhance integrations with Oracle CX Sales and NetSuite.
-* Capture real-time events from Oracle CX Sales, such as Opportunity closed, into Oracle Integration for downstream processing.
-* Create a Sales Order in NetSuite, immediately after an Opportunity is closed in Oracle CX Sales.
+* Capture real-time events from Oracle CX Sales, such as Opportunity Won, into Oracle Integration for downstream processing.
+* Create a Sales Order in NetSuite, immediately after an Opportunity is Won in Oracle CX Sales.
 * Practice mapping and transforming data attributes between the different systems to ensure compatibility and accurate data processing.
-* Run the integration by performing an Opportunity Close in Oracle CX Sales to initiate the creation of a Sales Order in NetSuite.
-* Monitor integration runs and troubleshoot common issues.
-
-
-
-
-
-
+* Run the integration by creating an Opportunity with Won status in Oracle CX Sales to initiate the creation of a corresponding Sales Order in NetSuite.
+* Monitor the integration flow run in Oracle Integration.
+* Log in to NetSuite and validate the new customer, inventory item records and sales order.
 
 ### Prerequisites
 
@@ -57,7 +51,7 @@ Before beginning the workshop, please verify that you have access to the followi
 * Oracle Integration
 * Oracle NetSuite
 * Oracle CX Sales
-* Oracle Autonomous Database
+* Oracle Autonomous Database (Optional)
 * Chrome browser
 
 ## Learn More
@@ -66,7 +60,8 @@ Before beginning the workshop, please verify that you have access to the followi
 * [Using the Oracle NetSuite Adapter with Oracle Integration 3](https://docs.oracle.com/en/cloud/paas/application-integration/netsuite-adapter)
 * [Using the Oracle CX Sales and B2B Service Adapter with Oracle Integration 3
 ](https://docs.oracle.com/en/cloud/paas/application-integration/sales-adapter)
-
+* [Synchronize Opportunities in Oracle CX Sales and B2B Service with Oracle NetSuite Orders
+](http://docs.oracle.com/en/cloud/paas/application-integration/sync-cx-opportunities)
 
 ## Acknowledgements
 
