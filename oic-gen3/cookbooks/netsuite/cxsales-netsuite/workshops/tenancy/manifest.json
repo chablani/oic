@@ -18,7 +18,7 @@
         },
         {
             "title": "Lab 2: Find and Install Recipe",
-            "filename": "https://oracle-livelabs.github.io/oic/oic-gen3/cookbooks/netsuite/cxsales-netsuite/install-cxsales-netsuite-recipe/install-cxsales-netsuite-recipe.md"
+            "filename": "../../install-cxsales-netsuite-recipe/install-cxsales-netsuite-recipe.md"
         },
         {
             "title": "Need Help?",
