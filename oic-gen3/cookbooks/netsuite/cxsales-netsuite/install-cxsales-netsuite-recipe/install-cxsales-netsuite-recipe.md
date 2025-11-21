@@ -35,3 +35,7 @@ This lab assumes you have:
     ```
 
     Based on the entered use case description, the AI Assistant will display the relevant recipe for this workshop.
+
+6. Click **Choose** to select the displayed recipe.
+
+    The recipe you selected starts installing. Once the installation is complete, the Configuration Editor page appears.
