@@ -31,7 +31,7 @@ Estimated Workshop Time: 2 hours
 
 ### Objectives
 
-Workshop goals:
+In this workshop, you will:
 
 * Gain a fundamental understanding of Oracle Integration concepts, such as Projects and Adapters.
 * Create a Project using natural language with the built-in AI Assistant.
@@ -53,6 +53,8 @@ Before beginning the workshop, please verify that you have access to the followi
 * Oracle CX Sales
 * Oracle Autonomous Database (Optional)
 * Chrome browser
+
+You may now **proceed to the first lab**.
 
 ## Learn More
 
