@@ -17,9 +17,13 @@
             "filename": "https://oracle-livelabs.github.io/oic/oic-gen3/common/provision-oic/provision.md"
         },
         {
+            "title": "Lab 2: Find and Install Recipe",
+            "filename": "https://oracle-livelabs.github.io/oic/oic-gen3/cookbooks/netsuite/cxsales-netsuite/install-cxsales-netsuite-recipe/install-cxsales-netsuite-recipe.md"
+        },
+        {
             "title": "Need Help?",
             "description": "Solutions to Common Problems and Directions for Receiving Live Help",
-            "filename":"https://oracle-livelabs.github.io/common//labs/need-help/need-help-freetier.md"
+            "filename":"https://oracle-livelabs.github.io/common/labs/need-help/need-help-freetier.md"
         }
     ]
 }
