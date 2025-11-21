@@ -39,3 +39,5 @@ This lab assumes you have:
 6. Click **Choose** to select the displayed recipe.
 
     The recipe you selected starts installing. Once the installation is complete, the Configuration Editor page appears.
+
+7. On the Configuration Editor page, click Edit. 
