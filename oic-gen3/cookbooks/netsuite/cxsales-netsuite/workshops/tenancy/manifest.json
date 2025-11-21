@@ -1,11 +1,6 @@
 {
-    "workshoptitle": "The Title of the Workshop is Defined in the Manifest File",
-    "include": {"starter-file.sql":"../../data-load/files/starter-file.sql",
-                "sample.json":"../../data-load/files/sample.json",
-                "step2.md":"../../data-load/files/step2.md"},
-    "variables": ["../../variables/variables.json",
-                 "../../variables/variables-in-another-file.json"],
-    "help": "livelabs-help-**enterarea**_us@oracle.com",
+    "workshoptitle": "Synchronize Oracle CX Sales Opportunities and NetSuite Sales Orders",
+    "help": "livelabs-help-oic_us@oracle.com",
     "tutorials": [
         {
             "title": "Introduction",
@@ -18,9 +13,9 @@
             "filename": "https://oracle-livelabs.github.io/common/labs/cloud-login/cloud-login.md"
         },
         {
-            "title": "Other LiveLabs you might like",
-            "description": "Other LiveLabs you might like",
-            "filename": "../../other-livelabs/other-livelabs.md"
+            "title": "Need Help?",
+            "description": "Solutions to Common Problems and Directions for Receiving Live Help",
+            "filename":"https://oracle-livelabs.github.io/common//labs/need-help/need-help-freetier.md"
         }
     ]
 }
