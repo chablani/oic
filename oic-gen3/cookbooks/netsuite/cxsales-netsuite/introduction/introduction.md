@@ -10,10 +10,10 @@ This use case demonstrates the use of Oracle Integration to receive a request fr
 
 We will break down the use case in the following sequences:
 
-1. The integration is triggered by Oracle CX Sales when an Opportunity is won.
-2. Oracle Integration calls the Customer Service module to create a corresponding customer in NetSuite, receiving the Internal ID of the customer as response.
-3. Oracle Integration calls the Inventory Item module to create a corresponding item in NetSuite, receiving the Internal ID of the inventory item as response.
-4. Oracle Integration creates a corresponding Sales Order in NetSuite.
+1. Oracle Integration is triggered, parent flow, by Oracle CX Sales when an Opportunity is won.
+2. Parent flow calls the Customer Service module to create a corresponding customer in NetSuite, receiving the Internal ID of the customer as response.
+3. Parent flow calls the Inventory Item module to create a corresponding item in NetSuite, receiving the Internal ID of the inventory item as response.
+4. Parent flow creates a corresponding Sales Order in NetSuite.
 
 ## About this Workshop
 
@@ -58,10 +58,8 @@ Before beginning the workshop, please verify that you have access to the followi
 
 * [Get Started with Oracle Integration 3](https://docs.oracle.com/en/cloud/paas/application-integration/index.html)
 * [Using the Oracle NetSuite Adapter with Oracle Integration 3](https://docs.oracle.com/en/cloud/paas/application-integration/netsuite-adapter)
-* [Using the Oracle CX Sales and B2B Service Adapter with Oracle Integration 3
-](https://docs.oracle.com/en/cloud/paas/application-integration/sales-adapter)
-* [Synchronize Opportunities in Oracle CX Sales and B2B Service with Oracle NetSuite Orders
-](http://docs.oracle.com/en/cloud/paas/application-integration/sync-cx-opportunities)
+* [Using the Oracle CX Sales and B2B Service Adapter with Oracle Integration 3](https://docs.oracle.com/en/cloud/paas/application-integration/sales-adapter)
+* [Synchronize Opportunities in Oracle CX Sales and B2B Service with Oracle NetSuite Orders](http://docs.oracle.com/en/cloud/paas/application-integration/sync-cx-opportunities)
 
 ## Acknowledgements
 

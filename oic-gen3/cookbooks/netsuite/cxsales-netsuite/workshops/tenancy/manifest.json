@@ -13,6 +13,10 @@
             "filename": "https://oracle-livelabs.github.io/common/labs/cloud-login/cloud-login.md"
         },
         {
+            "title": "Provision Oracle Integration",
+            "filename": "https://oracle-livelabs.github.io/oic/oic-gen3/common/provision-oic/provision.md"
+        },
+        {
             "title": "Need Help?",
             "description": "Solutions to Common Problems and Directions for Receiving Live Help",
             "filename":"https://oracle-livelabs.github.io/common//labs/need-help/need-help-freetier.md"
