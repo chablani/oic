@@ -40,4 +40,4 @@ This lab assumes you have:
 
     The recipe you selected starts installing. Once the installation is complete, the Configuration Editor page appears.
 
-7. On the Configuration Editor page, click Edit. 
+7. On the Configuration Editor page, click Edit.
