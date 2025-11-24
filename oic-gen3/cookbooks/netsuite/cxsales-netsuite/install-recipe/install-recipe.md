@@ -31,7 +31,9 @@ This lab assumes you have:
 5. On the **Start a new project** page, copy below use case description, paste it in the chat box and press **Enter**.
 
     ```
-    <copy>Solution to create an order in the NetSuite as opportunity is closed in Oracle CX</copy>
+    <copy>
+    Solution to create an order in the NetSuite as opportunity is closed in Oracle CX
+    </copy>
     ```
 
     Based on the entered use case description, the AI Assistant will display the relevant recipe for this workshop.
