@@ -62,6 +62,8 @@ This lab assumes you have:
     | Oracle Engagement (CX Sales) Cloud Connection | LiveLabs - Oracle CX Cloud Connection |
     {: title="Configure Connections"}
 
+9. Click **Go Back <** and repeat **task 8** until all connections have status **Configured**.
+
     ```
     Note: If you don't want to configure the connections using shared connections, configure the connections as needed with custom properties.
     ```
