@@ -1,0 +1,70 @@
+# Install Recipe to Synchronize Oracle CX Sales Opportunities with NetSuite Sales Orders
+
+## Introduction
+
+This lab walks you through the steps to find and install a recipe which synchronizes Oracle CX Sales opportunities and NetSuite sales orders.
+
+### Objectives
+
+* Create a Project
+* Find an existing Recipe using the AI Assistant and add it to the Project
+* Configure connections included in the Recipe
+
+### Prerequisites
+
+This lab assumes you have:
+
+* Completed all prerequisites and prior setup tasks successfully.
+
+## Task 1: Find and Install Recipe
+
+1. Login to your Oracle Integration console.
+
+2. In the left navigation pane, click **Projects**.
+
+3. Click **Add**.
+
+    The **Start a new project** panel appears.
+
+4. Click **Create**.
+
+5. On the **Start a new project** page, copy below use case description, paste it in the chat box and press **Enter**.
+
+    ```
+    <copy>Solution to create an order in the NetSuite as opportunity is closed in Oracle CX</copy>
+    ```
+
+    Based on the entered use case description, the AI Assistant will display the relevant recipe for this workshop.
+
+6. Click **Choose** to select the displayed recipe.
+
+    ![Select Recipe](./images/select-recipe.png)
+    The recipe you selected starts installing. Once the installation is complete, the Configuration Editor page appears.
+
+    On the **Connections** subpage, the following connections will be shown:
+
+    * Oracle REST Connection
+    * Oracle NetSuite Connection
+    * Oracle Engagement (CX Sales) Cloud Connection
+
+    We will configure each of the connections.
+
+7. Hover over a connection and click **Edit** (pencil) icon.
+
+8. In the **Use a shared connection** box, type the keyword `Live` and then select the appropriate configuration from the list of shared connections. Click **Save** after selecting a shared connection.
+
+    | Connection | Replace with Shared Connection |
+    | ---------- | ------------------------------ |
+    | Oracle REST Connection | LiveLabs - Oracle REST Connection |
+    | Oracle NetSuite Connection | LiveLabs - Oracle NetSuite Connection |
+    | Oracle Engagement (CX Sales) Cloud Connection | LiveLabs - Oracle CX Cloud Connection |
+    {: title="Configure Connections"}
+
+    ```
+    Note: If you don't want to configure the connections using shared connections, configure the connections as needed with custom properties.
+    ```
+
+8. 
+
+
+

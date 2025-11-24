@@ -18,13 +18,13 @@
         },
         {
             "title": "Lab 2: Find and Install Recipe",
-            "filename": "../../install-cxsales-netsuite-recipe/install-cxsales-netsuite-recipe.md"
+            "filename": "../../install-recipe/install-recipe.md"
         },
         {
             "title": "Need Help?",
             "description": "Solutions to Common Problems and Directions for Receiving Live Help",
             "filename":"https://oracle-livelabs.github.io/common/labs/need-help/need-help-freetier.md"
         }
-        
+    
     ]
 }
