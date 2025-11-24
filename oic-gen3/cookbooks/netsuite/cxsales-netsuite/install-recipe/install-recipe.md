@@ -66,7 +66,13 @@ This lab assumes you have:
     Note: If you don't want to configure the connections using shared connections, configure the connections as needed with custom properties.
     ```
 
-8. 
+You may now **proceed to the next lab**.
 
+## Learn More
 
+* [Recipe: Synchronize Opportunities in Oracle CX Sales and B2B Service with Oracle NetSuite Orders](https://docs.oracle.com/en/cloud/paas/application-integration/sync-cx-opportunities)
 
+## Acknowledgements
+
+* **Author:** Ravi Chablani, Product Management - Oracle Integration
+* **Last Updated:** Ravi Chablani, November 2025
