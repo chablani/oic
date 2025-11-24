@@ -55,7 +55,7 @@ This lab assumes you have:
 
 8. In the **Use a shared connection** box, type the keyword `Live` and then select the appropriate configuration from the list of shared connections. Click **Save** after selecting a shared connection.
 
-    | Connection | Replace with Shared Connection |
+    | Connection | Select with Shared Connection |
     | ---------- | ------------------------------ |
     | Oracle REST Connection | LiveLabs - Oracle REST Connection |
     | Oracle NetSuite Connection | LiveLabs - Oracle NetSuite Connection |
