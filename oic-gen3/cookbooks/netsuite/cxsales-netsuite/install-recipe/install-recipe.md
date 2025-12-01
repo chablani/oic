@@ -14,7 +14,7 @@ This lab walks you through the steps to find and install a recipe which synchron
 
 This lab assumes you have:
 
-* Completed all prerequisites and prior setup tasks successfully.
+* Completed all prerequisites and prior setup tasks successfully
 
 ## Task 1: Find and Install Recipe
 
@@ -32,7 +32,7 @@ This lab assumes you have:
 
     ```
     <copy>
-    Solution to create an order in the NetSuite as opportunity is closed in Oracle CX
+    Solution to create an order in NetSuite as opportunity is closed in Oracle CX
     </copy>
     ```
 
@@ -43,17 +43,19 @@ This lab assumes you have:
     ![Select Recipe](./images/select-recipe.png)
     The recipe you selected starts installing. Once the installation is complete, the Configuration Editor page appears.
 
-    On the **Connections** subpage, the following connections will be shown:
+## Task 2: Configure Connections
 
-    * Oracle REST Connection
-    * Oracle NetSuite Connection
-    * Oracle Engagement (CX Sales) Cloud Connection
+On the **Connections** subpage, the following connections will be shown:
 
-    We will configure each of the connections.
+* Oracle REST Connection
+* Oracle NetSuite Connection
+* Oracle Engagement (CX Sales) Cloud Connection
 
-7. Hover over a connection and click **Edit** (pencil) icon.
+We will configure each of these connections.
 
-8. In the **Use a shared connection** box, type the keyword `Live` and then select the appropriate configuration from the list of shared connections. Click **Save** after selecting a shared connection.
+1. Hover over a connection and click **Edit** (pencil) icon.
+
+2. In the **Use a shared connection** box, type the keyword `Live` and then select the appropriate configuration from the list of shared connections. Click **Save** after selecting a shared connection.
 
     | Connection | Select with Shared Connection |
     | ---------- | ------------------------------ |
@@ -62,11 +64,14 @@ This lab assumes you have:
     | Oracle Engagement (CX Sales) Cloud Connection | LiveLabs - Oracle CX Cloud Connection |
     {: title="Configure Connections"}
 
-9. Click **Go Back <** and repeat **task 8** until all connections have status **Configured**.
+3. Click **Go Back <** and repeat **task 8** until all connections have status **Configured**.
 
     ```
     Note: If you don't want to configure the connections using shared connections, configure the connections as needed with custom properties.
     ```
+
+## Task 3: Activate
+
 
 You may now **proceed to the next lab**.
 
