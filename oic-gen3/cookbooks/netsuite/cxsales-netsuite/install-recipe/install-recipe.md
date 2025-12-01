@@ -70,8 +70,23 @@ We will configure each of these connections.
     Note: If you don't want to configure the connections using shared connections, configure the connections as needed with custom properties.
     ```
 
-## Task 3: Activate
+## Task 3: Activate Project
 
+After the connections have been configured, you will activate the project. Project activation or deactivation results in bulk processing of the selected integrations in the project.
+
+1. In the **Project** workspace, click **Deploy**.
+
+2. With the default project deployment selected, move to the right and click **Activate** button.
+
+    The **Activate project** panel opens.
+
+3. Select the default deployment name, choose **Audit** tracing level, then click **Activate**.
+
+    Wait until all integrations in the Project workspace have status **Active**.
+
+    ```
+    Note: If there are deployments available or if you want a separate one, then create a project deployment under the Deploy tab and select the specific integrations and integration versions to include in the project deployment.
+    ```
 
 You may now **proceed to the next lab**.
 
@@ -82,4 +97,4 @@ You may now **proceed to the next lab**.
 ## Acknowledgements
 
 * **Author:** Ravi Chablani, Product Management - Oracle Integration
-* **Last Updated:** Ravi Chablani, November 2025
+* **Last Updated:** Ravi Chablani, December 2025
