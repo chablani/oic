@@ -1,14 +1,14 @@
-# Install Recipe to Synchronize Oracle CX Sales Opportunities with NetSuite Sales Orders
+# Create Project to Synchronize Oracle CX Sales Opportunities with NetSuite Sales Orders
 
 ## Introduction
 
-This lab walks you through the steps to find and install a recipe which synchronizes Oracle CX Sales opportunities and NetSuite sales orders.
+This lab walks you through the steps to find and install a recipe which synchronizes Oracle CX Sales opportunities and NetSuite sales orders, and add it to a new project.
 
 ### Objectives
 
-* Create a Project
-* Find an existing Recipe using the AI Assistant and add it to the Project
-* Configure connections included in the Recipe
+* Find an existing recipe using the AI Assistant and add it to a new project
+* Configure connections included in the recipe
+* Activate project by creating a deployment
 
 ### Prerequisites
 
@@ -17,6 +17,8 @@ This lab assumes you have:
 * Completed all prerequisites and prior setup tasks successfully
 
 ## Task 1: Find and Install Recipe
+
+You will create a project by selecting an existing recipe using the AI Assistant.
 
 1. Login to your Oracle Integration console.
 
@@ -41,7 +43,8 @@ This lab assumes you have:
 6. Click **Choose** to select the displayed recipe.
 
     ![Select Recipe](./images/select-recipe.png)
-    The recipe you selected starts installing. Once the installation is complete, the Configuration Editor page appears.
+
+    The recipe you selected starts installing as a new project. Once the installation is complete, the Configuration Editor page appears.
 
 ## Task 2: Configure Connections
 
@@ -74,9 +77,9 @@ We will configure each of these connections.
 
 After the connections have been configured, you will activate the project. Project activation or deactivation results in bulk processing of the selected integrations in the project.
 
-1. In the **Project** workspace, click **Deploy**.
+1. In the **Project** workspace, click **Deploy** tab.
 
-2. With the default project deployment selected, move to the right and click **Activate** button.
+2. With the default project deployment selected, hover to the right and click **Activate**.
 
     The **Activate project** panel opens.
 
