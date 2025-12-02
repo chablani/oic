@@ -25,3 +25,7 @@ Task 2: Monitor the results from the Observability Dashboard in Oracle Integrati
 
 Task 3: Verify the Sales Order in NetSuite
 
+## Acknowledgements
+
+* **Author:** Ravi Chablani, Product Management - Oracle Integration
+* **Last Updated:** Ravi Chablani, December 2025
