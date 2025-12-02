@@ -1,4 +1,4 @@
-# Create Project to Synchronize Oracle CX Sales Opportunities with NetSuite Sales Orders
+# Install Recipe to Synchronize Oracle CX Sales Opportunities with NetSuite Sales Orders
 
 ## Introduction
 
@@ -8,7 +8,7 @@ This lab walks you through the steps to find and install a recipe which synchron
 
 * Find an existing recipe using the AI Assistant and add it to a new project
 * Configure connections included in the recipe
-* Activate project by creating a deployment
+* Activate the CX Sales to NetSuite Project by selecting a deployment
 
 ### Prerequisites
 
@@ -75,7 +75,7 @@ We will configure each of these connections.
 
 ## Task 3: Activate Project
 
-After the connections have been configured, you will activate the project. Project activation or deactivation results in bulk processing of the selected integrations in the project.
+After the connections have been configured, you will activate the project. Project activation or deactivation results in bulk processing of the selected integrations in the project. Before you can activate a project, ensure there is a project deployment and explicitly select the integrations and their versions to include in the deployment.
 
 1. In the **Project** workspace, click **Deploy** tab.
 
