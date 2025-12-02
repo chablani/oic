@@ -33,7 +33,7 @@ Task 1: Create an Opportunity in Oracle CX Sales
 
 5. On the Summary page, enter the following details:
 
-    * Select `Won` in the Status field. Choose a suitable reason in the Win/Loss Reason field.
+    * Select **Won** in the Status field. Choose a suitable reason in the Win/Loss Reason field.
     * Scroll to the Products section, and click **Add** to add a product group.
     * With Group selected in the Type field, select a product group in the Name field. Enter other necessary details for the product group, such as quantity, estimated price, and so on.
 
