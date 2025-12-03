@@ -23,26 +23,66 @@ Task 1: Create an Opportunity in Oracle CX Sales
 
 2. Click **Opportunities** on the home page.
 
-3. On the **Opportunities** page, click **Create Opportunity**.
+3. On the **Opportunities** page, click **Create Opportunity (+)**.
 
-4. On the Create Opportunity page, enter the following details:
+4. On the **Create Opportunity** page, enter the following details:
 
-    * Enter a name for the opportunity.
-    * Select an account for the opportunity (mandatory).
-    * Set a close date, and click Save and Continue.
+    * Enter a name for the opportunity. Example: `RC-20251102-1506`. Keep note of this code as you will need it later.
+    * Select an account for the opportunity (mandatory). Example: `ABC Application Software`
+    * Set a close date. Example: `<set one week from today>`
+    * Leave all other fields as default.
+    * Click **Save and Continue**.
 
-5. On the Summary page, enter the following details:
+5. On the **Summary** page, enter the following details:
 
-    * Select **Won** in the Status field. Choose a suitable reason in the Win/Loss Reason field.
-    * Scroll to the Products section, and click **Add** to add a product group.
-    * With Group selected in the Type field, select a product group in the Name field. Enter other necessary details for the product group, such as quantity, estimated price, and so on.
+    * Select **Won** in the Status field. 
+    * Choose a suitable reason in the Win/Loss Reason field. Example: `Product`
 
-6. Click Save and Close.
+6. Under the **Products** section, click **Add** to add a product line with the following details:
+
+    * With Group selected in the Type field, select a product group in the Name field. Example: `Fit Cardio`
+    * Enter **Quantity**.
+    * Enter **Estimated Price**.
+
+7. Click **Save and Close**.
 
 Task 2: Monitor the results from the Observability Dashboard in Oracle Integration
 
+The Opportunity Event from Oracle CX Sales will trigger the main integration, which will trigger two child flows. We will monitor these three integrations from the Observability dashboard.
+
+1. From the Oracle Integration console, click on Projects.
+
+2. In the project workspace, click **Observe** tab, then **Instances**.
+
+    You'll see a list of integration flows (instances) which are either running or completed. Find the integrations which were triggered after you created an Opportunity in Oracle CX Sales.
+
+3. Find each of the below instances and click on the **View Details** (eye) button:
+
+    a. Sales Order: Look for the entry under **Primary Identifier** column where **Name** has the value of your Opportunity number.
+
+    b. Inventory Item (optional): If an inventory item was created.
+
+    c. Customer (optional): If a customer was created.
+
+4. Ensure each instance has status **Succeeded**. If the status is **Error** or **Aborted**, then you must troubleshoot to identify root cause.
 
 Task 3: Verify the Sales Order in NetSuite
+
+If the Create Sales Order integration completed with status **Succeeded**, then a Sales Order was created in NetSuite. We will verify the details of this order. Ensure you access the NetSuite instance as a user with sufficient privileges to check list sales order, customer, and inventory item records.
+
+1. Log in to the NetSuite instance.
+
+2. Verify the sales order:
+
+    a. Navigate to **Transactions** > **Sales** > **Enter Sales Orders** > List.
+
+3. Verify the customer record:
+
+    a. 
+
+4. Verify the inventory item record:
+
+    a. 
 
 ## Acknowledgements
 
