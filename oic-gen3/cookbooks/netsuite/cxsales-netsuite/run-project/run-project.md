@@ -17,7 +17,7 @@ This lab assumes you have:
 * Completed all prerequisites successfully
 * All Integrations and Connections in **Configured** status
 
-Task 1: Create an Opportunity in Oracle CX Sales
+## Task 1: Create an Opportunity in Oracle CX Sales
 
 1. Log in to the Oracle CX Sales instance using a valid user account with privileges to create an Opportunity.
 
@@ -46,7 +46,7 @@ Task 1: Create an Opportunity in Oracle CX Sales
 
 7. Click **Save and Close**.
 
-Task 2: Monitor the results from the Observability Dashboard in Oracle Integration
+## Task 2: Monitor the results from the Observability Dashboard in Oracle Integration
 
 The Opportunity Event from Oracle CX Sales will trigger the main integration, which will trigger two child flows. We will monitor these three integrations from the Observability dashboard.
 
@@ -60,15 +60,19 @@ The Opportunity Event from Oracle CX Sales will trigger the main integration, wh
 
     a. Sales Order: Look for the entry under **Primary Identifier** column where **Name** has the value of your Opportunity number.
 
-    b. Inventory Item (optional): If an inventory item was created.
+    b. Customer (optional): If a customer was created.
 
-    c. Customer (optional): If a customer was created.
+    c. Inventory Item (optional): If an inventory item was created.
 
 4. Ensure each instance has status **Succeeded**. If the status is **Error** or **Aborted**, then you must troubleshoot to identify root cause.
 
-Task 3: Verify the Sales Order in NetSuite
+## Task 3: Verify the Sales Order in NetSuite
 
-If the Create Sales Order integration completed with status **Succeeded**, then a Sales Order was created in NetSuite. We will verify the details of this order. Ensure you access the NetSuite instance as a user with sufficient privileges to check list sales order, customer, and inventory item records.
+If the Create Sales Order integration completed with status **Succeeded**, then a Sales Order was created in NetSuite. We will verify the details of this order. Additionally, we will also review the corresponding customer and inventory item records.
+
+    ```
+    Note: Ensure you access the NetSuite instance as a user with sufficient privileges to check list sales order, customer, and inventory item records.
+    ```
 
 1. Log in to the NetSuite instance.
 
