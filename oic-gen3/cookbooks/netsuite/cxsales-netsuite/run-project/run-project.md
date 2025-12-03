@@ -76,17 +76,11 @@ If the Create Sales Order integration completed with status **Succeeded**, then 
 
 1. Log in to the NetSuite instance.
 
-2. Verify the sales order:
+2. Verify the sales order by navigating to **Transactions** > **Sales** > **Enter Sales Orders** > **List**.
 
-    a. Navigate to **Transactions** > **Sales** > **Enter Sales Orders** > List.
+3. Verify the customer record by navigating to **Lists** > **Relationships** > **Customers**.
 
-3. Verify the customer record:
-
-    a. 
-
-4. Verify the inventory item record:
-
-    a. 
+4. Verify the inventory item record by navigating to **Lists** > **Accounting** > **Items**.
 
 ## Acknowledgements
 
