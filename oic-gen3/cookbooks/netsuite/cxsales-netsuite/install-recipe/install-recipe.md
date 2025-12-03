@@ -10,6 +10,7 @@ Estimated Lab Time: 30 minutes
 
 * Find an existing recipe using the AI Assistant and add it to a new project
 * Configure connections included in the recipe
+* Review the integrations to create a NetSuite customer, inventory item and sales order respectively.
 * Activate the CX Sales to NetSuite Project by selecting a deployment
 
 ### Prerequisites

@@ -16,11 +16,15 @@
             "filename": "../../install-recipe/install-recipe.md"
         },
         {
-            "title": "Lab 3: Run Project",
+            "title": "Lab 3: Customize the Project",
+            "filename": "../../install-recipe/install-recipe.md"
+        },
+        {
+            "title": "Lab 4: Run the Project",
             "filename": "../../run-project/run-project.md"
         },
         {
-            "title": "Lab 4: Enhancements",
+            "title": "Lab 5: Enhancements",
             "filename": "../../enhancements/enhancements.md"
         },
         {
