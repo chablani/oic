@@ -27,7 +27,7 @@ This lab assumes you have:
 
 4. On the **Create Opportunity** page, enter the following details:
 
-    * Enter a name for the opportunity. Example: `RC-20251102-1506`. Keep note of this code as you will need it later.
+    * Enter a unique value for the opportunity. A suggestion is to use your initials, followed by the timestamp. Example: `RC-20251102-1506`. Keep note of this value as you will need it later.
     * Select an account for the opportunity (mandatory). Example: `ABC Application Software`
     * Set a close date. Example: `<set one week from today>`
     * Leave all other fields as default.
@@ -35,7 +35,7 @@ This lab assumes you have:
 
 5. On the **Summary** page, enter the following details:
 
-    * Select **Won** in the Status field. 
+    * Select **Won** in the Status field.
     * Choose a suitable reason in the Win/Loss Reason field. Example: `Product`
 
 6. Under the **Products** section, click **Add** to add a product line with the following details:
@@ -43,6 +43,10 @@ This lab assumes you have:
     * With Group selected in the Type field, select a product group in the Name field. Example: `Fit Cardio`
     * Enter **Quantity**.
     * Enter **Estimated Price**.
+
+    ```
+    Note: Due to design guardrails of this flow, you must assign only one product group to the opportunity, and you must not add a product item to the opportunity.
+    ```
 
 7. Click **Save and Close**.
 
@@ -71,7 +75,7 @@ The Opportunity Event from Oracle CX Sales will trigger the main integration, wh
 If the Create Sales Order integration completed with status **Succeeded**, then a Sales Order was created in NetSuite. We will verify the details of this order. Additionally, we will also review the corresponding customer and inventory item records.
 
     ```
-    Note: Ensure you access the NetSuite instance as a user with sufficient privileges to check list sales order, customer, and inventory item records.
+    Note: Ensure you access the NetSuite instance as a user with sufficient privileges to list sales order, customer, and inventory item records.
     ```
 
 1. Log in to the NetSuite instance.
