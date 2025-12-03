@@ -4,6 +4,8 @@
 
 This lab walks you through the steps to run the project created in the previous lab. That requires accessing Oracle CX Sales and submitting an Opportunity, which will trigger the integration to orchestrate the Sales Order creation in NetSuite.
 
+Estimated Lab Time: 30 minutes
+
 ### Objectives
 
 * Create an Opportunity in Oracle CX Sales.
@@ -74,10 +76,8 @@ The Opportunity Event from Oracle CX Sales will trigger the main integration, wh
 
 If the Create Sales Order integration completed with status **Succeeded**, then a Sales Order was created in NetSuite. We will verify the details of this order. Additionally, we will also review the corresponding customer and inventory item records.
 
-    ```
-    Note: Ensure you access the NetSuite instance as a user with sufficient privileges to list sales order, customer, and inventory item records.
-    ```
-    
+Ensure you access the NetSuite instance as a user with sufficient privileges to list sales order, customer, and inventory item records.
+
 1. Log in to the NetSuite instance.
 
 2. Verify the sales order by navigating to **Transactions** > **Sales** > **Enter Sales Orders** > **List**.

@@ -4,6 +4,8 @@
 
 This lab walks you through the steps to find and install a recipe which synchronizes Oracle CX Sales opportunities and NetSuite sales orders, and add it to a new project.
 
+Estimated Lab Time: 30 minutes
+
 ### Objectives
 
 * Find an existing recipe using the AI Assistant and add it to a new project
