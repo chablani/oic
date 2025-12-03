@@ -77,7 +77,7 @@ If the Create Sales Order integration completed with status **Succeeded**, then 
     ```
     Note: Ensure you access the NetSuite instance as a user with sufficient privileges to list sales order, customer, and inventory item records.
     ```
-
+    
 1. Log in to the NetSuite instance.
 
 2. Verify the sales order by navigating to **Transactions** > **Sales** > **Enter Sales Orders** > **List**.
