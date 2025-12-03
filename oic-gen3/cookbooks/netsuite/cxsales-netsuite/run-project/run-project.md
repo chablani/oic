@@ -60,9 +60,9 @@ The Opportunity Event from Oracle CX Sales will trigger the main integration, wh
 
     a. Sales Order: Look for the entry under **Primary Identifier** column where **Name** has the value of your Opportunity number.
 
-    b. Customer (optional): If a customer was created.
+    b. Customer: This flow contains a switch statement to determine if a customer record already exists with corresponding id. If it does not exist, then a customer will be created.
 
-    c. Inventory Item (optional): If an inventory item was created.
+    c. Inventory Item:  This flow contains a switch statement to determine if an inventory item record already exists with corresponding id. If it does not exist, then an inventory item will be created.
 
 4. Ensure each instance has status **Succeeded**. If the status is **Error** or **Aborted**, then you must troubleshoot to identify root cause.
 
