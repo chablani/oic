@@ -12,20 +12,20 @@
             "filename": "https://oracle-livelabs.github.io/oic/oic-gen3/common/provision-oic/provision.md"
         },
         {
-            "title": "Lab 2: Create a Project Using a Recipe",
+            "title": "Lab 2: Install Recipe as Project",
             "filename": "../../install-recipe/install-recipe.md"
         },
         {
-            "title": "Lab 3: Customize the Project",
-            "filename": "../../install-recipe/install-recipe.md"
+            "title": "Lab 3: Customize Project",
+            "filename": "../../customize-project/customize-project.md"
         },
         {
-            "title": "Lab 4: Run the Project",
-            "filename": "../../run-project/run-project.md"
+            "title": "Lab 4: End-to-End Testing",
+            "filename": "../../test-project/test-project.md"
         },
         {
-            "title": "Lab 5: Enhancements",
-            "filename": "../../enhancements/enhancements.md"
+            "title": "Lab 5: Enhance Integrations",
+            "filename": "../../enhance/enhance.md"
         },
         {
             "title": "Need Help?",

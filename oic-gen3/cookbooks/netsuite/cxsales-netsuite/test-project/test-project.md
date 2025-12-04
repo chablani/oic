@@ -1,8 +1,8 @@
-# Run the Project
+# End-to-End Testing of the Opportunity-to-Order Journey
 
 ## Introduction
 
-This lab walks you through the steps to run the project created in the previous lab. That requires accessing Oracle CX Sales and submitting an Opportunity, which will trigger the integration to orchestrate the Sales Order creation in NetSuite.
+This lab walks you through the steps to run the project created in the previous lab. That requires accessing Oracle CX Sales and submitting an Opportunity, which will trigger the integration to orchestrate the Sales Order creation in NetSuite. You will use Monitoring to verify the status of the integration executions. And 
 
 Estimated Lab Time: 30 minutes
 
@@ -85,6 +85,11 @@ Ensure you access the NetSuite instance as a user with sufficient privileges to 
 3. Verify the customer record by navigating to **Lists** > **Relationships** > **Customers**.
 
 4. Verify the inventory item record by navigating to **Lists** > **Accounting** > **Items**.
+
+You may now **proceed to the next lab**.
+
+## Learn More
+
 
 ## Acknowledgements
 

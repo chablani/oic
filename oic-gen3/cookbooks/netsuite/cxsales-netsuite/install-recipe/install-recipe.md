@@ -1,4 +1,4 @@
-# Install Recipe to Synchronize Oracle CX Sales Opportunities with NetSuite Sales Orders
+# Install Recipe as Project to Synchronize Oracle CX Sales Opportunities with NetSuite Sales Orders
 
 ## Introduction
 

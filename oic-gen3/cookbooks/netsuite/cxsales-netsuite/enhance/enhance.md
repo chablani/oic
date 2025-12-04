@@ -1,7 +1,11 @@
-# Enhancements
+# Enhance integrations with additional actions
 
 ## Introduction
 
+
+You may now **proceed to the next lab**.
+
+## Learn More
 
 
 ## Acknowledgements

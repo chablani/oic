@@ -1,4 +1,4 @@
-# Customize the Project
+# Customize Project
 
 ## Introduction
 
