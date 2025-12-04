@@ -1,4 +1,4 @@
-# Enhance integrations with additional actions
+# Extend integrations with additional actions
 
 ## Introduction
 
