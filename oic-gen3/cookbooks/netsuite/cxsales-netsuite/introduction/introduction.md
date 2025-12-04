@@ -24,8 +24,9 @@ You will build an integration workflow that synchronizes **CX Sales Opportunitie
 
 1. Use the AI Assistant to find and install the recipe **Synchronize Opportunities in Oracle CX Sales and B2B Service with Oracle NetSuite Orders**. The recipe is installed as a new Project.
 2. Configure the connection for the REST, NetSuite and CX Sales adapters.
-3. Add an action to capture details of the NetSuite Sales Order (e.g. persist as file, insert as Database record, send as email notification, etc).
-4. Activate and run the project.
+3. Review the integrations to create a NetSuite customer, inventory item and sales order respectively.
+4. Add an action to capture details of the NetSuite Sales Order (e.g. persist as file, insert as Database record, send as email notification, etc).
+5. Activate and run the project.
 
 Estimated Workshop Time: 2 hours
 
