@@ -8,7 +8,7 @@
             "filename": "../../introduction/introduction.md"
         },
         {
-            "title": "Lab 1: Provision Oracle Integration 3",
+            "title": "Lab 1: Provision Oracle Integration",
             "filename": "https://oracle-livelabs.github.io/oic/oic-gen3/common/provision-oic/provision.md"
         },
         {
@@ -16,8 +16,8 @@
             "filename": "../../install-recipe/install-recipe.md"
         },
         {
-            "title": "Lab 3: Configure Project",
-            "filename": "../../configure-project/configure-project.md"
+            "title": "Lab 3: Customize Project",
+            "filename": "../../customize-project/customize-project.md"
         },
         {
             "title": "Lab 4: Test Opportunity to Order",
