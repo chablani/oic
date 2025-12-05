@@ -21,9 +21,38 @@ The main flow uses a filter expression to only trigger when an Opportunity is Wo
 
 1. In the **Project** workspace, click **Design** tab.
 
-2. Click on the **Opportunity to Order Sync** integration. Ensure you are in EDIT mode. 
+2. Click on the **Opportunity to Order Sync** integration. Ensure you are in EDIT mode.
 
-3. 
+    This open the Design canvas.
+
+3. Double-click the **Trigger** action. Alternatively, you can click on the **Overflow menu (...)**, then **Edit** option.
+
+4. On the **Edit Basic Info** panel, click **Continue**.
+
+5. Scroll down until the **Filter Expr for Opportunity Updated Event** text area.
+
+6. Replace below code
+
+    ```
+    $eventPayload/ns3:result/ns2:StatusCode="WON"
+    ```
+    With this code
+
+    ```
+    <copy>
+    $eventPayload/ns3:result/ns2:StatusCode="WON" and $eventPayload/ns3:result/ns2:GSECode_c="<unique-value>"
+    </copy>
+    ```
+
+7. Substitute the `<unique value>` with a distinct value (Example: your initials or first name).
+
+    ```
+    Note: Remember this unique value as you will need it when you create an opportunity in the testing phase.
+    ```
+
+8. Click **Continue**, then **Finish**.
+
+9. Click **Save** at the top of the screen to persist all changes.
 
 ## Task 3: Activate Project
 
