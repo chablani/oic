@@ -21,7 +21,9 @@ The main flow uses a filter expression to only trigger when an Opportunity is Wo
 
 1. In the **Project** workspace, click **Design** tab.
 
-2. 
+2. Click on the **Opportunity to Order Sync** integration. Ensure you are in EDIT mode. 
+
+3. 
 
 ## Task 3: Activate Project
 
