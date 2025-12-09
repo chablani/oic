@@ -10,7 +10,7 @@ Estimated Lab Time: 30 minutes
 
 * Create an Opportunity in Oracle CX Sales.
 * Monitor the results from the Observability Dashboard in Oracle Integration.
-* Verify the Sales Order in NetSuite.
+* Verify corresponding Sales Order in NetSuite.
 
 ### Prerequisites
 
