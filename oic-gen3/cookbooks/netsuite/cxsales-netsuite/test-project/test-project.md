@@ -32,6 +32,7 @@ This lab assumes you have:
     * Enter a unique value for the opportunity. A suggestion is to use your initials, followed by the timestamp. Example: `RC-20251102-1506`. Keep note of this value as you will need it later.
     * Select an account for the opportunity (mandatory). Example: `ABC Application Software`
     * Set a close date. Example: `<set one week from today>`
+    * Add the unique value you choose for the Event Filter under **GSE Code**. This ensures you are correctly filtering the event which gets triggered after you submit an Opportunity in CX Sales. 
     * Leave all other fields as default.
     * Click **Save and Continue**.
 
