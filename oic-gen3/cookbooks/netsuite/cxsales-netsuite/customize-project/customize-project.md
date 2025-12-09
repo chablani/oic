@@ -54,7 +54,7 @@ The main flow uses a filter expression to only trigger when an Opportunity is Wo
 
 9. Click **Save** at the top of the screen to persist all changes.
 
-## Task 3: Activate Project
+## Task 2: Activate Project
 
 After the connections have been configured, you will activate the project. Project activation or deactivation results in bulk processing of the selected integrations in the project. Before you can activate a project, ensure there is a project deployment and explicitly select the integrations and their versions to include in the deployment.
 
